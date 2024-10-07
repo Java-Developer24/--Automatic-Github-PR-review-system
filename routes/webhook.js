@@ -15,7 +15,7 @@ const createWebhook = async (repoOwner, repoName, accessToken) => {
         active: true,
         events: ['pull_request'],
         config: {
-          url: `https://automatic-github-pr-review-system.vercel.app/webhook`,  // The webhook URL on your server
+          url: `https://automatic-github-pr-review-system-zwnu.vercel.app/webhook`,  // The webhook URL on your server
           content_type: 'json',
         },
       },
